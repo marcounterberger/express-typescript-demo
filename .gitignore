@@ -1,0 +1,7 @@
+.env
+/node_modules
+/dist
+links.md
+jwks.json
+keycloak.info
+error.log
