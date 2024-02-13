@@ -1,6 +1,6 @@
 FROM node:alpine
 WORKDIR /usr/app
-COPY package.json .
+COPY package*.json .
 RUN npm ci
 COPY . .
 EXPOSE 4000
